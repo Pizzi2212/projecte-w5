@@ -1,0 +1,317 @@
+body {
+  font-family: 'Roboto';
+}
+
+nav {
+  background-color: #ffc017;
+  border-bottom: 0.5px solid black;
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav img {
+  margin-left: 8em;
+}
+
+nav ul {
+  margin-right: 3em;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  margin: 1em;
+}
+
+#started {
+  color: white;
+  background-color: black;
+  padding: 1em;
+  border-radius: 30px;
+}
+
+#mainTitle {
+  background-color: #ffc017;
+  border: 0.5px black solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+}
+
+#columnTitle {
+  margin-top: 8rem;
+  margin-left: 10rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#title {
+  font-size: 8em;
+  font-family: none;
+}
+
+#mainTitle p {
+  margin-top: 1rem;
+  font-size: 2em;
+}
+
+#buttonTitle {
+  margin-top: 2rem;
+}
+
+#buttonTitle button {
+  background-color: black;
+  color: white;
+  border-bottom: 0.5px solid black;
+  width: 150px;
+  height: 30px;
+  border-radius: 20px;
+}
+
+#mStyle {
+  width: 45em;
+}
+
+#secondSection {
+  border-bottom: 0.5px solid gray;
+  padding-bottom: 3em;
+}
+
+#tranding {
+  display: flex;
+  margin-left: 10em;
+  margin-top: 3em;
+  align-content: center;
+}
+
+span {
+  font-weight: bold;
+}
+
+#secondSection {
+  display: flex;
+  justify-content: center;
+}
+
+#tranding h3 {
+  font-size: 1.1em;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.3em;
+  margin-left: 0.6em;
+}
+
+.trendinMedium {
+  display: flex;
+  margin-top: 1.5em;
+  width: 33%;
+}
+
+.trendinMedium h3 {
+  margin-top: 1em;
+  font-weight: bold;
+}
+
+#thirdSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.trendinMedium .squareImg,
+#thirdSection .squareImg {
+  width: 20px;
+  height: 20px;
+  border-radius: 20%;
+  margin-right: 12px;
+}
+
+.trendinMedium .roundImg,
+#thirdSection .roundImg {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.trendinStyle {
+  flex-direction: column;
+}
+
+.number {
+  font-size: 2em;
+  color: #e6e7e7;
+  margin-right: 0.7em;
+  font-weight: bold;
+}
+
+.date {
+  margin-top: 1em;
+  color: #757575;
+}
+
+.trendingPosition {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 8%;
+}
+
+.discover {
+  display: flex;
+  width: 60%;
+  justify-content: space-evenly;
+  margin-top: 5em;
+}
+
+.discoverPosition {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.discoverPosition h3,
+.date2,
+.paragraph {
+  margin-left: 8em;
+}
+
+.cover {
+  width: 24%;
+  height: 160px;
+  position: relative;
+  right: 2em;
+}
+
+#thirdSection .roundImg {
+  margin-left: 8em;
+}
+
+#thirdSection .squareImg {
+  margin-left: 8em;
+}
+
+strong {
+  background-color: #f1f2f2;
+  padding: 3px;
+  border-radius: 15px;
+}
+
+.bookmark {
+  position: relative;
+  top: 4em;
+  right: 2.4em;
+}
+
+#thirdSection h3 {
+  font-weight: bold;
+}
+
+.paragraph {
+  color: #757575;
+}
+
+.bookmark3 {
+  position: relative;
+  top: 4em;
+  right: 2.6em;
+}
+
+.cover4 {
+  width: 24%;
+  position: relative;
+  right: 2em;
+}
+
+.bookmark4 {
+  position: relative;
+  top: 4em;
+  right: 2.8em;
+}
+
+.bookmark5 {
+  position: relative;
+  top: 4em;
+  right: 5.3em;
+}
+
+.cover5 {
+  width: 24%;
+  position: relative;
+  right: 3em;
+}
+
+.cover6 {
+  width: 24%;
+  position: relative;
+  right: 1.9em;
+}
+
+.bookmark6 {
+  position: relative;
+  top: 4em;
+  right: 3.7em;
+}
+
+.cover7 {
+  width: 24%;
+  position: relative;
+  right: 1.9em;
+}
+
+.bookmark7 {
+  position: relative;
+  top: 4em;
+  right: 4.3em;
+}
+
+.discoverPosition6 {
+  margin-right: 5.9em;
+}
+
+.discoverPosition5 {
+  margin-left: 1em;
+}
+
+#column2 {
+  position: absolute;
+  left: 60%;
+  margin: 5em;
+}
+#column2 h2 {
+  font-weight: bold;
+  margin-left: 1em;
+}
+hr {
+  background-color: gray;
+  height: 0.5px;
+  border: none;
+  margin-top: 2em;
+  margin-right: 4em;
+  margin-left: 0.8em;
+}
+
+#column2 button {
+  margin: 1em;
+  padding: 1em;
+  width: 10em;
+  height: 45px;
+  background-color: white;
+  border: 0.2px solid gray;
+  color: gray;
+}
+
+.flexButton {
+  display: flex;
+}
+
+#column2 ul {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-right: 5em;
+}
+
+li a {
+  text-decoration: none;
+  color: gray;
+}
