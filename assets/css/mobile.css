@@ -1,8 +1,36 @@
 @media screen and (max-width: 576px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    max-width: 576px;
+  }
+
   #mstyle {
     display: none;
   }
   .hidden {
     display: none;
+  }
+  nav {
+    display: inline-block;
+    justify-content: space-around;
+  }
+
+  #tranding {
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5em;
+    position: relative;
+    right: 8em;
+  }
+
+  .trendingPosition {
+    flex-direction: column;
+  }
+  .trendingMedium {
+    display: flex;
+  }
+  .trendinMedium h3 {
   }
 }
