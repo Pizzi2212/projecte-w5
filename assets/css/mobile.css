@@ -1,0 +1,8 @@
+@media screen and (max-width: 576px) {
+  #mstyle {
+    display: none;
+  }
+  .hidden {
+    display: none;
+  }
+}

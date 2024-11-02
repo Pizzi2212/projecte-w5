@@ -1,9 +1,20 @@
 body {
-  font-family: 'Roboto';
+  font-family: Roboto serif;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #ffc017;
+  transition: background-color 0.5s ease-in;
+}
+
+.modScroll {
+  background-color: white;
 }
 
 nav {
-  background-color: #ffc017;
   border-bottom: 0.5px solid black;
   padding: 2em;
   display: flex;
@@ -11,11 +22,11 @@ nav {
 }
 
 nav img {
-  margin-left: 8em;
+  margin-left: 9em;
 }
 
 nav ul {
-  margin-right: 3em;
+  margin-right: 7em;
 }
 
 li {
@@ -26,9 +37,11 @@ li {
 
 #started {
   color: white;
-  background-color: black;
+  width: 10em;
   padding: 1em;
   border-radius: 30px;
+  transition: background-color 0.5s ease-in;
+  border: none;
 }
 
 #mainTitle {
@@ -65,8 +78,8 @@ li {
   background-color: black;
   color: white;
   border-bottom: 0.5px solid black;
-  width: 150px;
-  height: 30px;
+  width: 200px;
+  height: 40px;
   border-radius: 20px;
 }
 
@@ -244,13 +257,13 @@ strong {
 .cover6 {
   width: 24%;
   position: relative;
-  right: 1.9em;
+  right: 1.6em;
 }
 
 .bookmark6 {
   position: relative;
   top: 4em;
-  right: 3.7em;
+  right: 3em;
 }
 
 .cover7 {
@@ -310,8 +323,12 @@ hr {
   margin-bottom: 2em;
   margin-right: 5em;
 }
-
 li a {
+  list-style: none;
   text-decoration: none;
   color: gray;
+}
+
+.hiddenM {
+  opacity: 0;
 }
